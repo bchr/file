@@ -1,0 +1,47 @@
+# Pve Paid
+Types: deb
+URIs: https://enterprise.proxmox.com/debian/pve
+Suites: trixie
+Components: pve-enterprise
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+Enabled: false
+
+# Pve Free
+Types: deb
+URIs: http://download.proxmox.com/debian/pve
+Suites: trixie
+Components: pve-no-subscription
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+Enabled: true
+
+# Pve Test
+Types: deb
+URIs: http://download.proxmox.com/debian/pve
+Suites: trixie
+Components: pve-test
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+Enabled: true
+
+# Ceph Paid
+Types: deb
+URIs: https://enterprise.proxmox.com/debian/ceph-squid
+Suites: trixie
+Components: enterprise
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+Enabled: false
+
+# Ceph Free
+Types: deb
+URIs: http://download.proxmox.com/debian/ceph-squid
+Suites: trixie
+Components: no-subscription
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+Enabled: false
+
+# Ceph Test
+Types: deb
+URIs: http://download.proxmox.com/debian/ceph-squid
+Suites: trixie
+Components: test
+Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
+Enabled: false
